@@ -9,6 +9,84 @@
     <title>이젠 인테리어</title>
 </head>
 <body>
+    <!-- 네비 영영 시작 -->
+    <section class="py-4">
+        <nav class="navbar navbar-expand-md fixed-top bg-light">
+            <div class="container-xl">
+                <a href="index.html" class="fs-4 logo-font text-dark text-decoration-none fw-bold"><img src="./images/logo.png" alt="이젠 로고"/>&nbsp;이젠인테리어</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menubar" aria-controls="menubar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="menubar">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="profile.html">프로필</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            인테리어</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="private-interior.html">개인공간</a></li>
+                                    <li><a class="dropdown-item" href="business-interior.html">비지니스공간</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">연락처</a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+    </section>
+    <!-- 헤더 영역 시작 -->
+    <div id="headercarousel" class="carousel slide carousel-fade">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#headercarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#headercarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#headercarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#headercarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#headercarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/header1.jpg" class="d-block w-100" alt="헤더이미지1">
+                <h5>1st</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/header2.jpg" class="d-block w-100" alt="헤더이미지2">
+                <h5>2nd</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/header3.jpg" class="d-block w-100" alt="헤더이미지3">
+                <h5>3rd</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/header4.jpg" class="d-block w-100" alt="헤더이미지4">
+                <h5>4th</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/header5.jpg" class="d-block w-100" alt="헤더이미지5">
+                <h5>5th</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#headercarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#headercarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
     <div class="container my-5">
         <div class="row">
             <!-- 프로필 바 섹션 -->
@@ -178,6 +256,37 @@
             </section>
         </div>
     </div>
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 pt-3">
+                    <h4><img src="./images/logo.png" alt="이젠 로고" >이젠 인테리어</h4>
+                    <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aspernatur consectetur voluptatem omnis eum, delectus velit! Ratione laudantium voluptates</p>
+                </div>
+                <div class="col-md-4 pt-3">
+                    <h4>About us</h4>
+                    <ul class="list-unstyled pt-4">
+                        <li><a href="profile.html" class="link-light text-decoration-none">프로필</a></li>
+                        <li><a href="private-interior.html" class="link-light text-decoration-none">프라이빗 인테리어</a></li>
+                        <li><a href="business-interior.html" class="link-light text-decoration-none">비지니스 인테리어</a></li>
+                        <li><a href="contact.html" class="link-light text-decoration-none">연락처</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 pt-3">
+                    <h4>소셜 미디어</h4>
+                    <ul class="list-unstyled pt-4">
+                        <li><a href="/" class="link-light text-decoration-none">유튜브</a></li>
+                        <li><a href="/" class="link-light text-decoration-none">블로그</a></li>
+                        <li><a href="/" class="link-light text-decoration-none">인스타그램</a></li>
+                        <li><a href="/" class="link-light text-decoration-none">메타</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-3">
+                <p class="py-3 mb-0"><i class="bi bi-c-circle"></i> ALL RIGHT RESERVED BY<span class="logo-font text-info">&nbsp;이젠 인테리어</span></p>    
+            </div>
+        </div>
+    </footer>
     <script src="./js/bootstrap.bundle.js" />
 </body>
 </html>

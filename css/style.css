@@ -22,3 +22,7 @@ h1, h2, h3, h4 .logo-font {
     background-attachment: fixed;
     background-size:cover;
 }
+.nav-link.active, .nav-link:hover {
+    color: darkblue !important;
+    font-weight: bold;
+}

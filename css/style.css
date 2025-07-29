@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sunflower:wght@300&display=swap');
+
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+h1, h2, h3, h4 .logo-font {
+    font-family: "Sumflower", sans-serif;
+}
+
+/* 포트폴리오 섹션 */
+.card-img-top {
+    transition: transform 1s;
+}
+
+.card-img-top:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#cBanner {
+    background-image:url(../images/card-banner.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+}
